@@ -11,8 +11,6 @@ import {
   contactSchemaUpdateRequest,
 } from "../schemas/contacts.schemas";
 import ensureUserDataIsValidMiddleware from "../middlewares/ensureUserDataIsValid.middleware";
-import ensureEmailNotExistsMiddleware from "../middlewares/ensureEmailNotExists.middleware";
-import ensureUserExistsMiddleware from "../middlewares/ensureUserExists.middleware";
 import ensureTokenIsValidMiddleware from "../middlewares/ensureTokenIsValid.middleware";
 import ensureIsContactOwnerMiddleware from "../middlewares/ensureIsContactOwner.middleware";
 
